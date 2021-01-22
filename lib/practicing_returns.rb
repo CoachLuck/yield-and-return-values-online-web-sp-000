@@ -4,7 +4,6 @@ def hello(array)
   i = 0
   col = []
   while i < array.length
-    binding.pry
     col << yield(array[i])
     i += 1
   end
